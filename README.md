@@ -81,6 +81,6 @@ Additionally, hosting the API locally has provided me with valuable insights int
 
 1. https://www.youtube.com/watch?v=tIV90xQ0k6A
 
-## Contributing
+## Contributions
 
 Thank you ;)
