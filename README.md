@@ -2,12 +2,7 @@
 
 ## Overview
 
-This project is a simple Express.js application that connects to a MySQL database and provides an API endpoint to retrieve the most recent log entries. The logs are stored in the `log_queries` database.
-While I initially considered using Azure Functions for its scalable serverless setup, I ultimately decided to use a local solution due to cost concerns. 
-I realized that using Azure could lead to expenses that might quickly exceed my budget, especially since I don't qualify for the free subscription. 
-During my exploration, I found that developing locally offers more flexibility for testing and debugging, allowing me to make changes quickly without the wait for deployments. 
-This approach also gives me full control over the environment, letting me manage resources and make specific tweaks to fit my needs.
-Additionally, hosting the API locally has provided me with valuable insights into server management and API design while keeping things simple
+This project is a simple Express.js application that connects to a MySQL database and provides an API endpoint to retrieve the most recent log entries. The logs are stored in the `log_queries` database. 
 
 ## Features
 
@@ -26,8 +21,8 @@ Additionally, hosting the API locally has provided me with valuable insights int
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/DivsLukG20/Function-2.git
+   cd Function-2
    ```
 
 2. Install the required packages:
@@ -79,4 +74,9 @@ Additionally, hosting the API locally has provided me with valuable insights int
 
 ## Tutorials 
 
-1. https://www.youtube.com/watch?v=tIV90xQ0k6A
+I followed this tutorial on YouTube: https://www.youtube.com/watch?v=tIV90xQ0k6A
+
+## Conclusion
+
+While I initially considered using Azure Functions for its serverless setup, I decided to use a local solution due to cost concerns, especially since I don't qualify for the free subscription. During my research, I found that developing locally offers more flexibility for testing and debugging, allowing me to make changes quickly without the wait for deployments. This approach also gives me full control over the environment, letting me manage resources and make specific tweaks to fit my needs. Additionally, hosting the API locally has provided me with valuable insights into server management and API design while keeping things simple
+
